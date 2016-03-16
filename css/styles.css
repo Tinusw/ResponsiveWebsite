@@ -1,0 +1,420 @@
+html {
+	/* html needs to be set for GoogleMapsAPI*/
+  height: 100%; 
+  margin: 0; 
+  padding: 0;
+}
+
+body {
+	/* body needs to be set for GoogleMapsAPI*/
+	height: 100%;
+	margin: 0;
+	padding: 0; 
+
+	/*background*/
+	background: linear-gradient(
+	  210deg,
+		rgba(105, 105, 105, 0.66), 
+		rgba(105, 105, 105, 0.01)
+	  ), url("../img/bckgrnd2.jpeg") repeat center center fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+/*
+/* IMAGE CAROUSEL */
+/**/
+
+/*Carousel sizes*/
+
+#projects h2 {
+	z-index: 2;
+}
+
+#carouselCont {
+	z-index: -1;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+#carouselCont img {
+	width: auto;
+}
+
+/*remove arrows on carousel*/
+.right.carousel-control, .left.carousel-control {
+	display: none;
+}
+
+/* carousel styling */
+.carousel-caption {
+	top: 15%;
+	padding-bottom: 10%;
+	color: orange;
+}
+
+.carousel-caption h3 {
+	font-size: 4em;
+}
+
+.carousel-caption p {
+	padding-bottom: 5%;
+	font-size: 1.5em;
+}
+
+
+/*Set images within carousel to fit screen*/
+.carousel,.item,.active{height:100%;}
+
+/**/
+/*WORK PAGE*/
+/**/
+
+#workCont {
+	margin-top: -3vh;
+}
+
+#workRow {
+	background-attachment: fixed;
+	text-align: center;
+	padding-top: 2% ;
+	padding-bottom: 10%;
+	color: orange;
+}
+
+#workRow h1 {
+
+	padding-top: 1%;
+	padding-bottom: 5%;
+	text-align: center;
+	color: orange;
+}
+
+.work-img {
+	display: block; /* needed to center element with margin */
+	margin: auto; /* center the image inside the column if it's smaller */
+	max-width: 200px;
+	position: relative; /* is needed for .info position: absolute to work */;
+}
+
+.info {
+	display: none;/*hide info for Jquery on mouse effect */
+	position: absolute; /* move text around without worrying about image */
+	top: 15%; /* position text 15% away from the top */
+	left: 22%;
+	color: white;
+	font-family: Futura;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.5em;
+	line-height: 1.6;
+}
+
+.proj-title {
+	font-weight: 100;
+}
+
+/**/
+/*ABOUT ME PAGE*/
+/**/
+
+#aboutCont {
+	margin-top: 42vh;
+	text-align: center;
+}
+
+#aboutCont h1 {
+	padding-top: 3%;
+	padding-bottom: 5%;
+	text-align: center;
+	color: orange;
+}
+
+#aboutRow {
+	padding-top: 1%;
+	padding-bottom: 5%;
+	color: orange;
+}
+
+#aboutImg {
+	  position: absolute;
+	  display: inline;
+    height: 79vh;
+}
+
+#skillsDiv {
+	padding: 1% 5% 10% 2%;
+	width: 50%;
+	background-color: aquamarine;
+	color: orange;
+}
+
+#skillsDiv h3 {
+	text-align: center;
+}
+
+#skill-list li {
+	font-size: 1.3em;
+}
+
+/* Three Sub Categories */
+
+#categoriesCont {
+	margin: auto;
+	width: 100%;
+	padding-bottom: 10%;
+	text-align: center;
+	
+}
+
+#categoriesRow {
+	margin-top: 5em;
+	padding-bottom: 5px;
+	height: 20%;
+	color: orange;
+	background-color: #4E4D5B;
+}
+
+#categoriesButton {
+	background-color: grey;
+  
+}
+
+/**/
+/* Contact Page*/
+/**/
+
+#contactCont {
+	text-align: center;
+	width: 100%;
+  margin-top: 26vh;
+}
+
+.contactHeader h1 {
+	padding-top: 3%;
+	text-align: center;
+	color: orange;
+}
+
+#map {
+	margin: auto;
+	height: 15em;
+	width: 50%;
+}
+
+.notice {
+	margin-top: 1%;
+	margin-bottom: 1%;
+	color: orange;
+}
+
+#contactInf {
+	display: inline;
+	text-align: center;
+	padding: 1%;
+	color: orange;
+}
+
+.email {
+	margin: auto;
+  text-align: center;
+  position: relative;
+  width: 30%;
+	border: 4px solid orange;
+	padding: 1%;
+}
+
+/*email html5 form-control*/
+.form-control {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+#sendButton {
+	margin-top: 3%;
+	display: inline;
+}
+
+/*Some CSS magic to make form fields change color on input*/
+
+input.invalid, textarea.invalid{
+	border: 2px solid red;
+}
+
+input.valid, textarea.valid{
+	border: 4px solid orange;
+}
+
+.email a {
+	display: inherit;
+	color: white;
+	font-size: 2em;
+	padding-bottom: 0.2%;
+	transition: color 800ms;
+	-webkit-transition: color 600ms;
+}
+
+/*on-hover glow effect*/
+.email a:hover {
+	color: orange;
+	text-decoration: none;
+}
+
+.bye {
+	text-align: center;
+	color: orange;
+}
+
+.bye h2 {
+	padding: 0.5%;
+}
+
+.bye p {
+	margin: auto;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	position: relative;
+}
+
+
+/* Social Media Icons */
+.icons {
+	text-align: center;
+}
+
+
+
+/**/
+/* FAQ PAGE */
+/**/
+
+
+
+/*FAQ Accordion*/
+
+#faqCont {
+	margin-top: 41vh;
+  text-align: center;
+  width: 60%;
+  color: orange;
+}
+
+#faqCont h1 {
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+
+#modal {
+	margin-bottom: 1%;
+}
+
+/*Learn More Modal header*/
+
+.learn-more {
+	float: left;
+	margin-top: -1%;
+  margin-left: 17%;
+}
+
+
+/*styling embeded modal content*/
+
+#modalembed {
+	height: 500px;
+	width: 100%;
+	padding: 10px;
+}
+
+
+
+#faqCont p {
+	padding-top: 1%;
+	position: relative;
+  top: 62vh;
+}
+
+/*Styling the Accordion*/
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #4E4D5B;
+    color: white;
+}
+
+.panel-body {
+	color: orange;
+	background-color: #6D6C7C;
+}
+
+.panel-title {
+	color: orange;
+}
+
+/**/
+/* Youtube Video Iframe */
+
+#youtubeCont {
+	margin: auto;
+	text-align: center;
+	padding: 1%;
+}
+
+/**/
+/*Google Maps*/
+/**/
+
+#googleMap {
+	padding: 0%;
+	width: 50%;
+}
+
+/**/
+/* Footer */
+/**/
+
+footer {
+	padding-top: 1%;
+	padding-bottom: 0;
+	text-align: center;
+	background-color: grey;
+}
+
+footer span {
+	font-size: 2em;
+}
+
+.fb-like {
+	padding: 1%;
+}
+
+
+/**/
+/* Typography */
+/**/
+
+h1 {
+	font-family: 'Raleway', 'Arimo', Arial, sans-serif;
+	font-weight: 800;
+	font-size: 4em;
+}
+
+h2 {
+	font-family: 'Raleway', 'Arimo', Arial, sans-serif;
+	font-weight: 700;
+	font-size: 2.5em;
+}
+
+h3 {
+	font-family: 'Raleway', 'Arimo', Arial, sans-serif;
+	font-weight: 500;
+	font-size: 2em;
+}
+
+p {
+	font-family: 'Arimo','Raleway',  Arial,  sans-serif;
+	font-weight: 500;
+}

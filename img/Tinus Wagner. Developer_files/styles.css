@@ -1,0 +1,334 @@
+* { box-sizing: border-box; }
+
+html,body{height:100%;}
+
+html {
+	
+	background: 
+	  linear-gradient(
+	  to right,
+		rgba(89, 98, 106, 1), 
+		rgba(89, 98, 106, 0.1)
+	  ), url("../img/about_back.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+			}
+		}
+	}
+
+	body {
+	height: 100%
+}
+
+.container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+
+/* NAVBAR */
+
+.nav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: black;
+	padding: 20px 10px 5px 5px;
+	z-index: 1;
+}
+
+.nav a {
+	text-transform: uppercase;
+	letter-spacing: 0.18em;
+	font-size: 1.2em;
+	color: white;
+	/*transition color dictates how quick mouse.hover takes to happen*/
+	transition: color 800ms;
+	-webkit-transition: color 600ms;
+}
+
+/*dope on-mouse hover effect*/
+.nav a:hover {
+	color: orange;
+	text-decoration: none;
+}
+
+.nav ul {
+	/*float: right;*/
+}
+
+.nav ul li {
+	display: inline-block;
+  /*float: left;*/
+}
+
+.nav ul li a {
+  padding: 20px 10px 5px 5px;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+}
+
+
+/*Carousel sizes*/
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+}
+
+.carousel-caption {
+	top: 15%;
+	padding-bottom: 10%;
+}
+
+.carousel-caption p {
+	padding-bottom: 5%;
+}
+/*Set images within carousel to fit screen*/
+.carousel,.item,.active{height:100%;}
+
+
+/* MY WORK IMAGES STYLING WITH BOOTSTRAP */
+
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+}
+
+#work {
+	text-align: center;
+	padding-top: 7% ;
+	color: orange;
+}
+
+#work h3 {
+	font-size: 2.8em;
+	padding-bottom: 0;
+}
+
+.image p {
+	font-size: 1.2em;
+}
+
+/*THREE SUB CATEGORIES*/
+
+.containerCategories {
+	position: relative;
+	padding-bottom: 2%;
+	text-align: center;
+	color: orange;
+	background-color: #4E4D5B;
+
+}
+
+.containerCategories p {
+	font-size: 1.3em;
+}
+
+/*ABOUT ME PAGE*/
+
+.container-fluid h1{
+	padding-top: 3%;
+	padding-bottom: 4.3%;
+	text-align: center;
+	color: orange;
+}
+
+.container-fluid h2 {
+	color: white;
+}
+
+#skill-list li {
+	font-size: 1.3em;
+}
+
+/*BACKGROUND IMAGE*/
+
+.jumbotron {
+	background-image: url("../img/landscape.jpg");
+	background-size: #%;
+}
+
+/*CONTACT PAGE*/
+
+.ContainerContact {
+	margin-top: 0;
+}
+
+
+
+/*index page responsive design stuff*/
+
+
+
+/*typography*/
+h1,
+h2,
+h3 {
+	font-family: 'Raleway', 'Arimo', Arial, sans-serif;
+	font-weight: 800;
+}
+
+li {
+	font-family: 'Arimo', Times, 'Times New Roman', serif;
+}
+
+/*Contact Page*/
+
+
+
+
+.header {
+	text-align: center;
+	padding-top: 15%;
+	padding-bottom: 2%;
+	margin-bottom: 15px;
+}
+
+.notice {
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+.email {
+	display: inline-block;
+	text-align: center;
+	width: 10vw;
+	margin-left: 42%;
+	margin-right: 45%;
+	padding: 1%;
+	border: 8px solid #70819A;
+}
+	
+	 
+}
+
+.email p {
+	position: absolute;
+  width: 100vw;
+  left: calc(-50vw + 50%);
+
+
+}
+
+.bye {
+	text-align: center;
+	padding-top: 1%;
+}
+
+.bye p {
+	position: relative;
+	margin-top: 1%;
+	padding-top: 14%;
+
+}
+
+footer {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.icons {
+	text-align: center;
+}
+
+
+
+/*Typography*/
+
+h1,
+h2,
+h3 {
+	font-family: 'Raleway', 'Arimo', Arial, sans-serif;
+	font-weight: 800;
+}
+
+li {
+	font-family: 'Arimo', Times, 'Times New Roman', serif;
+}
+
+.container h1 {
+	color: white;
+}
+
+.carousel-caption h3 {
+	font-family: 'Raleway', 'Arimo', Arial, sans-serif;
+	font-weight: 1000;
+	color: orange;
+	font-size: 5em;
+}
+
+.carousel-caption p {
+	font-family: 'Raleway', 'Arimo', Arial, sans-serif;
+	font-weight: 400;
+	color: black;
+	font-size: 2em;
+}
+
+/*About Page Styling*/
+
+
+.intro p {
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	font-weight: 100;
+	-webkit-margin-before: 0;
+}
+
+.skills-column h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.main-text h3 {
+	font-size: 2em;
+}
+.main-text p {
+	font-family: 'Arimo', Arial, 'Source Sans Pro', sans-serif;
+	font-size: 1.125em;
+}
+
+.skills-column {
+	background-color: lightblue;
+	padding-bottom: 39%
+}
+
+/*body {
+	background-color: #fffeea;
+	color: #34495e;
+}*/
+
+/*Typography*/
+
+/*h1,
+h2,
+h3 {
+	font-family: 'Raleway', 'Arimo', Arial, sans-serif;
+	font-weight: 800;
+}
+
+li {
+	font-family: 'Arimo', Times, 'Times New Roman', serif;
+	font-size: 1.8em;
+}
+
+h2 {
+	font-size: 4em;
+	font-weight: 1000;
+	padding-top: 5%;
+	text-align: center;
+}
+
+h3 {
+	font-size: 3em;
+	font-weight: 900;
+	padding-top: 15px;
+	text-align: left;
+}*/
