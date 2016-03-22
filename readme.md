@@ -1,7 +1,3 @@
-*** Notice ***
-
-This is just hosted on bitballoon so in all likelihood it'll run pretty slow!
-
 *** Overview ***
 
 
@@ -22,3 +18,7 @@ So this was really just an experiment in various components :
 - Mailer forms
 
 - Embedding Media such as Youtube Videos
+
+*** Notice ***
+
+This site is just hosted on bitballoon so in all likelihood it'll run pretty slow!
